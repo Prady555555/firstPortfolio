@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="styleSheet" href="../Porfolio/sytle.css"/>
+  <script src="https://kit.fontawesome.com/3fafcccc61.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="../Porfolio/images/prady-logos_white.png" class="logo"/>
+        <ul id="sideMenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          
+        </ul>
+        <i class="fa-solid fa-list" onclick="openMenu()"></i>
+      </nav>
+      <div class="header-text">
+      <p>App Developer</p>
+      <h1>Hi, I'm <span>Prady</span>  <br> from India  </h1>
+    </div>
+    </div>
+  </div>
+
+  <!-- -------------------about------------------------------------------ -->
+  <div id="about">
+    <div class="container">
+      
+      <div class="row">
+        
+        <div class="about-col-1">
+          <img src="../Porfolio/images/image1.JPG" id="img-2"/>
+        </div>
+        
+        <div class="about-col-2">
+          <h1 class="subtittle">About Me</h1>
+          <p>“Hi, I’m S. Pradeep, a React Native app and website developer with a background in mechanical engineering. My unique combination of skills allows me to approach problems from multiple angles and find innovative solutions. I have a passion for creating user-friendly and engaging digital experiences, and I’m always striving to improve my skills and stay up-to-date with the latest technologies. Whether I’m working on an app, a website, or a mechanical system, I bring my all to every project and am committed to delivering high-quality results.”</p>
+        
+          <div class="tab-tittles">
+          <p class="tab-links active-links" onclick="openTab('skill')">Skills</p>
+          <p class="tab-links" onclick="openTab('experience')">Experience</p>
+          <p class="tab-links" onclick="openTab('education')">Education</p>
+        </div>
+       
+        <div class="tab-content active-tab" id="skill">
+          <ul>
+            <li><span>App Developer</span><br/>Developing ReactNative Apps</li>
+            <li><span>Web Developer</span><br/> Web App developer</li>
+          </ul>
+        </div>
+         
+        <div class="tab-content" id="experience">
+            <ul>
+              <li><span>App Developer</span><br/>I have worked as a App Developer for various companys,<br/> and done many projects.</li>
+              <li><span>Web Developer</span><br/> I have completed web Development course and <br/>currently iam learning advance webdevelopment course in Capble.</li>
+            </ul>
+          </div> 
+          
+          <div class="tab-content" id="education">
+        <ul>
+          <li><span>Higer Education</span><br/>I have compeleted B.E Mechanical Engineering<br/>in Ramco Institute of Technology </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  </div>
+
+  <!-- --------------------Service---------------------------- -->
+
+  <div id="service">
+    <div class="container">
+      <div class="subtittle">Service</div>
+      <div class="servie-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Development</h2>
+          <p>“Welcome to S. Pradeep’s Web Development Services! I’m a talented website developer with expertise in HTML, CSS, JavaScript, jQuery, and Node.js. I can help you build a high-quality, user-friendly website that meets your needs and exceeds your expectations. Contact me today to learn more!”</p>
+          <a href="#contact">Learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-mobile-button"></i>
+          <h2>App Development</h2>
+          <p>“Welcome to S. Pradeep’s App Development Services! I’m a skilled mobile app developer with expertise in cross-platform development using React Native and AWS Amplify as a backend. I can help you build high-quality, user-friendly mobile apps that meet your needs and exceed your expectations. Contact me today to learn more!”</p>
+          <a href="#contact">Learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-node"></i>
+          <h2>Node.js Development</h2>
+          <p>Welcome to S. Pradeep's Backend Development Services! I'm a skilled backend developer with expertise in Node.js. I can help you build robust, scalable, and efficient backend systems that meet your needs and exceed your expectations. Contact me today to learn more about my backend development services!.</p>
+          <a href="#contact">Learn more</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!-- ----------------------Porfolio-------------------- -->
+ <div id="portfolio">
+  <div class="container">
+    <div class="subtittle">My Work</div>
+    <div class="work-list">
+      
+      <div class="work">
+      <img src="../Porfolio/images/webDevelopment.jpg"/>
+      <div class="layer"><h3>Iot based website with Aws</h3>
+       <p>“I recently developed an IoT based website for a fish food feeder using Firebase as a backend. This powerful and user-friendly solution allows users to remotely control and monitor the feeding of their fish, ensuring that they are always well-fed and healthy.”</p>
+       <a href="#contact"><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+       </div>
+    
+       <div class="work">
+      <img src="../Porfolio/images/depositphotos_28404781-stock-illustration-mobile-application-concept-in-flat.png"/>
+      <div class="layer">
+        <h3>Facebook Clone</h3>
+        <p>I recently cloned Facebook using React Native and AWS Amplify. This project showcases my proficiency in these technologies and my ability to create high-quality digital experiences. By replicating Facebook’s complex features, I demonstrated my ability to tackle challenging projects. Overall, this project is a testament to my skills as a developer.</p>
+        <a href="#contact"><i class="fa-solid fa-up-right-from-square"></i></a>
+       </div>
+      </div>
+    
+    <div class="work">
+      <img src="../Porfolio/images/intro-to-cloud.d49bc5f7.jpeg"/>
+      <div class="layer"><h3>Socail Media App</h3>
+        <p>I recently developed a social media app with a user-friendly interface and a range of features. Built using the latest technologies, the app is fast, reliable, and easy to use. This project showcases my ability to create engaging digital experiences.</p>
+        <a href="#contact"><i class="fa-solid fa-up-right-from-square"></i></a>
+       </div>
+    </div>
+  </div>
+    <a href="#" class="btn">See More</a>
+  </div>
+</div>
+<!-- ================================contact-----------------------   -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="subtittle">Contact Me</h1>
+        <p><i class="fa-regular fa-paper-plane"></i>pradeepdurai2002@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>9597686060</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/prady.prady.140" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/pradeep-durai-8b1648216" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://instagram.com/lovely__prady__?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="../Porfolio/images/White and Beige Minimalist Graphic Designer Professional Cv Resume.pdf" class="btn btn1" download >Download Resume</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required/>
+          <input type="email" name="Email" placeholder="Your Email Id" required/>
+         <textarea name="Message" rows="6" placeholder="Type Your Querries "></textarea>
+         <button type="submit" class="btn btn1">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+  <script>
+    var activeLinks = document.getElementsByClassName('tab-links');
+    var activeTabs= document.getElementsByClassName('active-tab');
+  
+
+    function openTab (tabName){
+       for(activeLink of activeLinks){
+        activeLink.classList.remove("active-links")
+       }
+       for(activeTab of activeTabs){
+        activeTab.classList.remove("active-tab")
+       }
+      //  console.log(event);
+      event.currentTarget.classList.add("active-links");
+      document.getElementById(tabName).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById('sideMenu');
+    function openMenu(){
+      sidemenu.style.right= '0px'
+    }
+    function closeMenu(){
+      sidemenu.style.right= '-200px'
+    }
+  </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzs4BYMsbm7NqDeqXlhmCj4rG_YN37pWn25S4GHm2fWS7VCiFuVU0USf-G6otx2TIzvqg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  var message = document.getElementById('msg');
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        message.innerHTML="your message has been send";
+        setTimeout(function(){
+          message.innerHTML="";
+        },1000);
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
